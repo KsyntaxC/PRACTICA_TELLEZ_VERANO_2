@@ -8,8 +8,6 @@ for i in range(1,N+1):
     x=int(input("Intro x: "))
     cd=int(math.log10(x))+1
     pd=x//10**(cd-1)
-    print("pd: ",pd)
     ud=x%10
-    print("ud: ",ud)
     s=pd+ud
     print(s)
